@@ -3,8 +3,7 @@
   <head>
     <title>Jq main</title>
     <meta charset="utf-8">
-    <script src="js/jquery.js"></script>
-    <script src="js/main.js"></script>
+
   </head>
   <body>
     <h1>И да познал он мощь…</h1>
@@ -36,7 +35,33 @@
 		$(document).ready(function(){</br>
 		})
     </code>
+    <p>
+		И уже в этой функции писать весь остальной код. Сама инструкция говорит «Когда весь документ будет готов, выполни эту функцию». Не могу с этим не согласиться, это значительно ускорит загрузку страницы.
+    </p>
     
+    <p>
+		Попробуем написать, что-нибудь. Самый частый пример — это обработка событий при нажатии на кнопку. Не буду выделяться так как сам еще изучаю JQ.
+    </p>
+    <p>В html:</p>
+    <code>
+		&ltbutton id = «kah»> Kill All Humans &lt/button></br>
+		&ltdiv id = «textContainer»>&lt/din>
+    </code></br>
+    <p>В js:</p>
+    <code>
+		$('#kah').on('click',function(){</br>
+		document.getElementById('textContainer').innerHTML = 'Hello! I am a robot. I am here to kill all humans!'
+    </code></br>
+    
+    
+    <button id="kah">Kill All Humans</button>
+    
+    <div id="textContainer">
+    </div>
+    
+    
+    <script src="js/jquery.js"></script>
+    <script src="js/main.js"></script>
   </body>
 
 
