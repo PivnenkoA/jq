@@ -4,6 +4,7 @@
     <title>Jq main</title>
     <meta charset="utf-8">
     <script src="js/jquery.js"></script>
+    <script src="js/main.js"></script>
   </head>
   <body>
     <h1>И да познал он мощь…</h1>
@@ -24,6 +25,18 @@
     <code>
 		&ltscript src = «js/jquery.js»>&lt/script>
     </code>
+    <p>
+		Нужно помнить, что Jquery подключается перед другими скриптами js, иначе он просто не будет работать.
+    </p>
+    <h3>Начало работы</h3>
+    <p>
+		Многие рекомендуют перед началом, работы в главном js скрипте прописать следующую инструкцию:
+    </p>
+    <code>
+		$(document).ready(function(){</br>
+		})
+    </code>
+    
   </body>
 
 
