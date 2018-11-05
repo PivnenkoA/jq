@@ -1,0 +1,6 @@
+		
+js++вывод в конкретный элемент++
+document.getElementById('textContainer').innerHTML = 'Hello! I am a robot. I am here to kill all humans!</br><a href="index.html">CLEAR</a>'
+
+git++push++
+$git push -u origin master
